@@ -1,0 +1,12 @@
+C:\Users\sailo\serena-bailey-master\Persistence\bin\Debug\netstandard2.0\Persistence.deps.json
+C:\Users\sailo\serena-bailey-master\Persistence\bin\Debug\netstandard2.0\Persistence.dll
+C:\Users\sailo\serena-bailey-master\Persistence\bin\Debug\netstandard2.0\Persistence.pdb
+C:\Users\sailo\serena-bailey-master\Persistence\bin\Debug\netstandard2.0\domain.dll
+C:\Users\sailo\serena-bailey-master\Persistence\bin\Debug\netstandard2.0\domain.pdb
+C:\Users\sailo\serena-bailey-master\Persistence\obj\Debug\netstandard2.0\Persistence.csprojAssemblyReference.cache
+C:\Users\sailo\serena-bailey-master\Persistence\obj\Debug\netstandard2.0\Persistence.csproj.CoreCompileInputs.cache
+C:\Users\sailo\serena-bailey-master\Persistence\obj\Debug\netstandard2.0\Persistence.AssemblyInfoInputs.cache
+C:\Users\sailo\serena-bailey-master\Persistence\obj\Debug\netstandard2.0\Persistence.AssemblyInfo.cs
+C:\Users\sailo\serena-bailey-master\Persistence\obj\Debug\netstandard2.0\Persistence.csproj.CopyComplete
+C:\Users\sailo\serena-bailey-master\Persistence\obj\Debug\netstandard2.0\Persistence.dll
+C:\Users\sailo\serena-bailey-master\Persistence\obj\Debug\netstandard2.0\Persistence.pdb
