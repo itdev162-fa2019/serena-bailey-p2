@@ -185,11 +185,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sailo\\serena-bailey-master\\domain\\domain.csproj",
+      "projectUniqueName": "C:\\Users\\sailo\\serena-bailey-master\\Domain\\domain.csproj",
       "projectName": "domain",
-      "projectPath": "C:\\Users\\sailo\\serena-bailey-master\\domain\\domain.csproj",
+      "projectPath": "C:\\Users\\sailo\\serena-bailey-master\\Domain\\domain.csproj",
       "packagesPath": "C:\\Users\\sailo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sailo\\serena-bailey-master\\domain\\obj\\",
+      "outputPath": "C:\\Users\\sailo\\serena-bailey-master\\Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
