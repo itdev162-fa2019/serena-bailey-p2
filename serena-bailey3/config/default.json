@@ -1,0 +1,4 @@
+{
+    "mongoURI": "mongodb+srv://kittiepink:Pikachu22@cluster0-qczhp.mongodb.net/test?retryWrites=true&w=majority",
+    "jwtSecret": "inthenameofthemoon"
+}
