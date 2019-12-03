@@ -1,0 +1,286 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  vertical-align: baseline;
+}
+
+body {
+  width:95%; 
+  margin: 0 auto;
+  background-color: #f8f2f6;
+  font-family: arial, sans-serif; 
+}
+header {
+  height: 10em;
+  background-color: white;
+  text-align: center;
+  line-height: 6em;
+}
+header h1 {
+    font-family: lucida handwriting;
+}
+nav {
+  height: 2em;
+  background-color: hotpink;
+}
+nav ul li, nav a:link, nav a:visited{
+    display: inline-block;
+    float: left; 
+    line-height: 2em;
+    width: 8em;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
+nav li:hover, nav a:hover {
+    color: lightpink;
+}
+navb {
+    height: 2em;
+    background-color: lightpink;
+}
+navb ul {
+    display: block;
+}
+navb ul li, nav a{
+    display: block; 
+    float: right; 
+    line-height: 2em; 
+    width: 2em;
+}
+/* Dropdown Button */
+.dropbtn {
+    background-color: hotpink;
+    color: black;
+    padding: 5px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+    background-color: hotpink;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: white}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+main {
+    min-height: 700px;
+    background-color: white; 
+    padding: 3em;
+    font-size: 14px;
+    text-align: justify;
+}
+section {
+    width: 60%; 
+    float: left;
+    margin-top: 2em;
+    margin-left: .5em;
+    align-content: center;
+}
+.price {
+    color: deeppink;
+    font-size: 2em;
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+@media only screen and (max-width: 1000px) {
+    aside {
+        width: 100%;
+        min-height: 10em;
+    }
+    article {
+        width: 100%;
+        min-height: 10em;
+    }
+    section {
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 350px) {
+    aside {
+        width: 100%;
+        min-height: 10em;
+    }
+    article {
+        width: 100%;
+        min-height: 10em;
+    }    
+    
+}
+.shadowbox {
+    padding: 20px;
+    width: 300px;
+    margin: 0 auto;
+    border: 5px double pink; 
+    color: black;
+    font-size: 100%;
+    text-align: center;
+    border-radius: 10px 20px 0 20px;
+    box-shadow: 3px 3px 4px 4px pink;
+    display: block;
+    align-self: center;
+}
+.scrollbox {
+    background-color: #ffffff;
+    width: 850px;
+    height: 575px;
+    overflow-y: scroll;
+    margin: auto;
+    margin-left: 0em;
+    overflow-x: hidden;
+    direction:ltr;
+}
+img { 
+    margin: 0 10px;
+} 
+img:hover {
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+.image {
+    height: 125px;
+    width: 125px;
+}
+.lbsize {
+    display: block;
+    width: 6em;
+    float: left; 
+    text-align: right;
+}
+aside {
+    width: 200px;
+    height: 500px;
+    margin-top: 3em;
+    float: right;
+    font-size: 16px;
+    text-align: center;
+}
+table {
+  width: 500px;
+  border-collapse: collapse;
+  border-spacing: 0;
+  border: 0;
+  padding: 0;  
+  margin: 0 auto;
+}
+  td, th {
+      margin: 0 auto;
+      padding: 0px;
+      border: 0;
+      margin-left: auto;
+      margin-right: auto;
+}
+footer{
+    height: 4em;
+    padding-left: 3em; 
+    padding-top: 1em; 
+    text-align: right;
+    clear: left;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Dosis', sans-serif;
+  line-height: 1.6;
+  color: #666;
+  background: #F6F6F6;
+}
+
+#root {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  padding: 1.5rem 2.5rem;
+  background-image: linear-gradient(120deg, #fbc2eb 0%, #a6c1ee 100%);
+  margin: 0 0 2rem 0;
+  font-size: 1.5rem;
+  color: white;
+}
+
+img {
+  display: block;
+  margin: 1rem auto;
+  max-width: 100%;
+}
+
+p {
+  padding: 0 2.5rem 2.5rem;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  margin: 1rem;
+  background: white;
+  box-shadow: 2px 4px 25px rgba(0, 0, 0, .1);
+  border-radius: 12px;
+  overflow: hidden;
+  transition: all .2s linear;
+}
+
+.card:hover {
+  box-shadow: 2px 8px 45px rgba(0, 0, 0, .15);
+  transform: translate3D(0, -2px, 0);
+}
+
+@media screen and (min-width: 600px) {
+  .card {
+    flex: 1 1 calc(50% - 2rem);
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .card {
+    flex: 1 1 calc(33% - 2rem);
+  }
+}
+
+.card:nth-child(2n) h1 {
+  background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+}
+
+.card:nth-child(4n) h1 {
+  background-image: linear-gradient(120deg, #ff9a9e 0%, #fecfef 100%);
+}
+
+.card:nth-child(5n) h1 {
+  background-image: linear-gradient(120deg, #ffc3a0 0%, #ffafbd 100%);
+}
